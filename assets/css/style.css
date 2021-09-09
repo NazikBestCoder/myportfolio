@@ -1,0 +1,182 @@
+body {
+    display: flex;
+    flex-direction: column;
+    line-height: 1.3;
+    background-color: rgb(222, 239, 245);
+    
+  }
+  
+  header {
+    /* display: flex; */
+    justify-content: space-between;
+  
+    align-items: center;
+    padding: 1% 1% 5%;
+    background-color: #13293d;
+    color: #fff;
+    height: 100px;
+    display: flex;
+    align-content: center;
+  }
+  
+  /* h2 ul {
+  list-style: circle;
+  } */
+  
+  h1 {
+    font-size: 200%;
+  }
+  h2 {
+    justify-content: flex-start;
+    color: #13293d;
+    font-size: 200%;
+    /* align-items: baseline; */
+    
+  }
+  
+  h3 {
+    /* margin-right: 5px; */
+    font-size: 250%;
+    align-content: center;
+    justify-content: center;
+    display: flex;
+  
+  }
+  
+  nav {
+    display: flex;
+    justify-content: center;
+    /* align-content: center; */
+    /* align-items: ; */
+    padding-right: 5px;
+    min-width: 500px;
+    flex-wrap: wrap;
+    flex-grow: 1;
+  }
+  
+  
+  nav ul li {
+    display: inline-block;
+    
+  }
+  nav a {
+    color: #b9C6ae;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+  nav a:hover {
+    color: #fff;
+  }
+  
+  main {
+    display: flex;
+    flex: 1 1 0;
+    max-width: 1200px;
+    margin: 2% auto;
+    /* background-image: url(/Users/nazikaskarbekkyzy/Desktop/boootcamp/upenn-virt-fsf-ft-08-2021-u-lol/webpage/Unsolved/assets/images/markus-spiske-Skf7HxARcoc-unsplash.jpg); */
+    
+    
+  }
+  
+  
+  figure {
+   width: 400px; 
+   height: 300px
+  }
+  
+  /* img {
+    height: 300px;
+    width: 520px;
+    justify-content: flex-end;
+    display:flex; */
+    /* background-image: url(/Users/nazikaskarbekkyzy/Desktop/boootcamp/upenn-virt-fsf-ft-08-2021-u-lol/webpage/Unsolved/assets/images/markus-spiske-Skf7HxARcoc-unsplash.jpg); */
+  /* } */
+  
+  section  {
+    /* flex: 1 1 0; */
+    padding-right: 20%;
+    height: 330px;
+    margin: auto;
+    
+  }
+  
+  article {
+    border-bottom: 1px;
+    margin-bottom: 120px;
+  }
+  
+  article p {
+    margin: 5% 0;
+    font-size: 110%;
+  }
+  /* article li {
+    flex-direction: row;
+  } */
+  article ul {
+    margin-left: 5%;
+    font-size: 110%;
+    list-style: circle;
+  }
+  
+  
+  /* aside {
+    width: 25%;
+  }
+  aside h2 {
+    font-size: 150%;
+  } */
+  
+  /* input, button {
+    width: 100%;
+    margin: 2% 0;
+    padding: 1%;
+  } */
+  .box {
+    background-image: url(/Users/nazikaskarbekkyzy/Desktop/boootcamp/upenn-virt-fsf-ft-08-2021-u-lol/webpage/Unsolved/assets/images/igor-miske-JVSgcV8_vb4-unsplash.jpg),
+    url(/Users/nazikaskarbekkyzy/Desktop/boootcamp/upenn-virt-fsf-ft-08-2021-u-lol/webpage/Unsolved/assets/images/markus-spiske-Skf7HxARcoc-unsplash.jpg), 
+    url(/Users/nazikaskarbekkyzy/Desktop/boootcamp/upenn-virt-fsf-ft-08-2021-u-lol/webpage/Unsolved/assets/images/lukas-blazek-mcSDtbWXUZU-unsplash.jpg),
+    url(/Users/nazikaskarbekkyzy/Desktop/boootcamp/upenn-virt-fsf-ft-08-2021-u-lol/webpage/Unsolved/assets/images/thought-catalog-505eectW54k-unsplash.jpg), 
+    url(/Users/nazikaskarbekkyzy/Desktop/boootcamp/upenn-virt-fsf-ft-08-2021-u-lol/webpage/Unsolved/assets/images/kelly-sikkema-SBxdMoOY9zM-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    justify-content: flex-start;
+    display: inline-block;
+    flex-direction: row;
+    width: 400px;
+    height: 300px;
+    display: flex;
+    background-size: contain;
+    
+  
+  }
+  
+  footer {
+    display: block;
+    position: relative;
+    margin-top: 2000px;
+  
+    justify-content: center;
+    padding: 2%;
+    background-color: #13293d;
+    color: #fff;
+    text-align: center;
+  }
+  
+  /* TODO: Add styles to display and hide the resource links */
+  
+  @media screen and (max-width: 768px) {
+    header, main {
+      flex-direction: column;
+    }
+  
+    section {
+      padding-right: 0;
+    }
+  
+    /* aside {
+      width: 100%;
+      text-align: center;
+    }
+  } */
+  
